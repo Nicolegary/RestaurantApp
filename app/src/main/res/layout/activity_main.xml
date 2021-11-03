@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="top"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Korean & Japanese Restaurant"
+        android:textSize="28sp"
+        android:id="@+id/restaurant"
+        />
+    
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="28sp"
+        />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="100sp"
+        android:src="@drawable/restarantImage2" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are totally welcome to have a good time here!!"
+        android:textSize="24sp"
+        android:id="@+id/information"
+        />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="28sp"
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open every day from 10AM to 11PM."
+        android:textSize="24sp"
+        android:id="@+id/times"
+        />
+
+    <EditText
+        android:id="@+id/simpleEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="Type your Gmail here" /><!--display the hint-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
